@@ -1,0 +1,23 @@
+（一）npm 是包管理器
+1.package.json 文件
+2.创建package.json   npm init
+3.安装软件包  npm install Lodash
+4.处理package.json 让package.json知道安装了那些包 npm install --save Lodash 进行重新的安装，然后package.json就出现dependencies(产生依赖)
+5.安装开发依赖  npm install --save-dev gulp
+6.删除安装的包  npm uninstall --save-dev gulp
+
+(二)babel是一个js的编译器，可以将es6代码编译成es5的代码，或者将其他的东西编译成js的语法
+1. babel-core  核心（空白的操作系统）
+2. plugins 插件
+3. presets (预设)
+4. babelrc  (配置文件)
+官网  babeljs.io
+
+（三）webpack 是一个模块打包器
+模块的形式  一个js就是一个模块  webpack通过import和require分析出模块的依赖关系 并将模块打包
+1.配置webpack的配置文件(新建)  webpack.config.js
+2.安装webpack  npm i -D webpack
+3.配置webpack.config信息
+4.新建文件夹 src文件资源  dist文件打包
+5.npm run dev 自动打包  运行webpack
+6.新建页面加载打包后的js文件
