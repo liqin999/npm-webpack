@@ -70,12 +70,20 @@
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_nav_js__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_const_js__ = __webpack_require__(2);
 /**
  * Created by liqin on 2017/9/15.
  */
-// ����ģ��
+// 引入模块
 
-Object(__WEBPACK_IMPORTED_MODULE_0__components_nav_js__["a" /* default */])();//ִ��
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__components_nav_js__["a" /* default */])();//执行
+
+function setName(){
+    console.log(__WEBPACK_IMPORTED_MODULE_1__components_const_js__["a" /* firstName */]+","+__WEBPACK_IMPORTED_MODULE_1__components_const_js__["b" /* lastName */]+","+__WEBPACK_IMPORTED_MODULE_1__components_const_js__["c" /* year */]);
+}
+setName();
 
 /***/ }),
 /* 1 */
@@ -89,6 +97,21 @@ Object(__WEBPACK_IMPORTED_MODULE_0__components_nav_js__["a" /* default */])();//
 function nav(){
     console.log("l am nav")
 }
+
+/***/ }),
+/* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return firstName; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return lastName; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return year; });
+
+var firstName = 'Michael';
+var lastName ="Jackson";
+var year = 958;
+
+
 
 /***/ })
 /******/ ]);

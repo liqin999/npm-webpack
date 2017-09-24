@@ -1,6 +1,13 @@
 /**
  * Created by liqin on 2017/9/15.
  */
-import nav from './components/nav.js'// 引入模块
+import nav from './components/nav.js'// 寮曞叆妯″潡
 
-nav();//执行
+import {firstName,lastName,year} from './components/const.js'
+
+nav();//鎵ц
+
+function setName(){
+    console.log(firstName+","+lastName+","+year);
+}
+setName();
