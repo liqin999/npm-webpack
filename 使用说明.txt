@@ -1,23 +1,25 @@
-£¨Ò»£©npm ÊÇ°ü¹ÜÀíÆ÷
-1.package.json ÎÄ¼ş
-2.´´½¨package.json   npm init
-3.°²×°Èí¼ş°ü  npm install Lodash
-4.´¦Àípackage.json ÈÃpackage.jsonÖªµÀ°²×°ÁËÄÇĞ©°ü npm install --save Lodash ½øĞĞÖØĞÂµÄ°²×°£¬È»ºópackage.json¾Í³öÏÖdependencies(²úÉúÒÀÀµ)
-5.°²×°¿ª·¢ÒÀÀµ  npm install --save-dev gulp
-6.É¾³ı°²×°µÄ°ü  npm uninstall --save-dev gulp
+ï¼ˆä¸€ï¼‰npm æ˜¯åŒ…ç®¡ç†å™¨
+1.package.json æ–‡ä»¶
+2.åˆ›å»ºpackage.json   npm init
+3.å®‰è£…è½¯ä»¶åŒ…  npm install Lodash
+4.å¤„ç†package.json è®©package.jsonçŸ¥é“å®‰è£…äº†é‚£äº›åŒ… npm install --save Lodash è¿›è¡Œé‡æ–°çš„å®‰è£…ï¼Œç„¶åpackage.jsonå°±å‡ºç°dependencies(äº§ç”Ÿä¾èµ–)
+5.å®‰è£…å¼€å‘ä¾èµ–  npm install --save-dev gulp
+6.åˆ é™¤å®‰è£…çš„åŒ…  npm uninstall --save-dev gulp
 
-(¶ş)babelÊÇÒ»¸öjsµÄ±àÒëÆ÷£¬¿ÉÒÔ½«es6´úÂë±àÒë³Ées5µÄ´úÂë£¬»òÕß½«ÆäËûµÄ¶«Î÷±àÒë³ÉjsµÄÓï·¨
-1. babel-core  ºËĞÄ£¨¿Õ°×µÄ²Ù×÷ÏµÍ³£©
-2. plugins ²å¼ş
-3. presets (Ô¤Éè)
-4. babelrc  (ÅäÖÃÎÄ¼ş)
-¹ÙÍø  babeljs.io
+(äºŒ)babelæ˜¯ä¸€ä¸ªjsçš„ç¼–è¯‘å™¨ï¼Œå¯ä»¥å°†es6ä»£ç ç¼–è¯‘æˆes5çš„ä»£ç ï¼Œæˆ–è€…å°†å…¶ä»–çš„ä¸œè¥¿ç¼–è¯‘æˆjsçš„è¯­æ³•
+1. babel-core  æ ¸å¿ƒï¼ˆç©ºç™½çš„æ“ä½œç³»ç»Ÿï¼‰
+2. plugins æ’ä»¶
+3. presets (é¢„è®¾)
+4. babelrc  (é…ç½®æ–‡ä»¶)
+å®˜ç½‘  babeljs.io
 
-£¨Èı£©webpack ÊÇÒ»¸öÄ£¿é´ò°üÆ÷
-Ä£¿éµÄĞÎÊ½  Ò»¸öjs¾ÍÊÇÒ»¸öÄ£¿é  webpackÍ¨¹ıimportºÍrequire·ÖÎö³öÄ£¿éµÄÒÀÀµ¹ØÏµ ²¢½«Ä£¿é´ò°ü
-1.ÅäÖÃwebpackµÄÅäÖÃÎÄ¼ş(ĞÂ½¨)  webpack.config.js
-2.°²×°webpack  npm i -D webpack
-3.ÅäÖÃwebpack.configĞÅÏ¢
-4.ĞÂ½¨ÎÄ¼ş¼Ğ srcÎÄ¼ş×ÊÔ´  distÎÄ¼ş´ò°ü
-5.npm run dev ×Ô¶¯´ò°ü  ÔËĞĞwebpack
-6.ĞÂ½¨Ò³Ãæ¼ÓÔØ´ò°üºóµÄjsÎÄ¼ş
+ï¼ˆä¸‰ï¼‰webpack æ˜¯ä¸€ä¸ªæ¨¡å—æ‰“åŒ…å™¨
+æ¨¡å—çš„å½¢å¼  ä¸€ä¸ªjså°±æ˜¯ä¸€ä¸ªæ¨¡å—  webpacké€šè¿‡importå’Œrequireåˆ†æå‡ºæ¨¡å—çš„ä¾èµ–å…³ç³» å¹¶å°†æ¨¡å—æ‰“åŒ…
+1.é…ç½®webpackçš„é…ç½®æ–‡ä»¶(æ–°å»º)  webpack.config.js
+2.å®‰è£…webpack  npm i -D webpack
+3.é…ç½®webpack.configä¿¡æ¯
+4.æ–°å»ºæ–‡ä»¶å¤¹ srcæ–‡ä»¶èµ„æº  distæ–‡ä»¶æ‰“åŒ…
+5.npm run dev è‡ªåŠ¨æ‰“åŒ…  è¿è¡Œwebpack
+6.æ–°å»ºé¡µé¢åŠ è½½æ‰“åŒ…åçš„jsæ–‡ä»¶
+
+(å››).æ¯æ¬¡ç¼–è¯‘å®Œæˆä¹‹åæ‰§è¡Œ npm run devè¿›è¡Œè‡ªåŠ¨æ‰“åŒ…å’Œæ„å»º

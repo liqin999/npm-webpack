@@ -71,10 +71,13 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_nav_js__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_const_js__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_a_js__ = __webpack_require__(3);
 /**
  * Created by liqin on 2017/9/15.
  */
 // 引入模块
+
+
 
 
 
@@ -84,6 +87,8 @@ function setName(){
     console.log(__WEBPACK_IMPORTED_MODULE_1__components_const_js__["a" /* firstName */]+","+__WEBPACK_IMPORTED_MODULE_1__components_const_js__["b" /* lastName */]+","+__WEBPACK_IMPORTED_MODULE_1__components_const_js__["c" /* year */]);
 }
 setName();
+
+console.log(Object(__WEBPACK_IMPORTED_MODULE_2__components_a_js__["a" /* default */])())
 
 /***/ }),
 /* 1 */
@@ -112,6 +117,16 @@ var lastName ="Jackson";
 var year = 958;
 
 
+
+/***/ }),
+/* 3 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = a;
+function a() {
+	return "this is a page";
+}
 
 /***/ })
 /******/ ]);
