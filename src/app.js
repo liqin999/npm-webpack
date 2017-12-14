@@ -8,6 +8,11 @@ import {firstName,lastName,year} from './components/const.js'
 /*引入一个模块时候，名字要和导出模块名字相同*/
 import { city, Counter } from './components/a.js';
 
+import { Person } from './components/class.js';
+
+let p1 = new Person("liqin",22);
+console.log(p1.toString());
+
 nav();//执行
 
 function setName(){
